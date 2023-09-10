@@ -1,12 +1,24 @@
+#include <stdlib.h>
+#include <time.h>
 #include <stdio.h>
 
 /**
- * main - Entry point of the program
+ * main - checking positive and negatives
  *
- * Return: Always 0 (Success)
+ * Return: 0
  */
 int main(void)
 {
-    printf("Testing Betty\n");
-    return (0);
+	int n;
+
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+
+	if (n < 0)
+		printf("%d is negative\n", n);
+	else if (n > 0)
+		printf("%d is positive\n", n);
+	else
+		printf("%d is zero\n", n);
+	return (0);
 }
