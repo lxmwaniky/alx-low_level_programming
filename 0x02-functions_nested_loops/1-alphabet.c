@@ -20,11 +20,11 @@ int main(void)
 
 void print_alphabet(void)
 {
-	char x;
+	char c;
 
-	for (x = 'a'; x <= 'z'; x++)
+	for (c = 'a'; c <= 'z'; c++)
 	{
-		putchar(x);
+		putchar(c);
 		putchar('\n');
 	}
 }
