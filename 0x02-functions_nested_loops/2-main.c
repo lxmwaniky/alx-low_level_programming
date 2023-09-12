@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
- * main - check the code.
- *
- * Return: Always 0.
+ * main - calls print_alphabet_x10 function
+ * Return: 0.
  */
 int main(void)
 {
