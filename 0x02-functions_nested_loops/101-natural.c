@@ -15,14 +15,14 @@ int main(void)
 /**
  * compute - compute the sum of all the multiples 3 or 5
  * @max: maximum value
- * Return: sum
+ * Return: total
  */
 int compute(int max)
 {
-	int i, sum;
+	int x, total;
 
-	for (i = 0, sum = 0; i < max; i++)
-		if ((i % 3 == 0) || (i % 5 == 0))
-			sum += i;
-	return (sum);
+	for (x = 0, total = 0; x < max; x++)
+		if ((x % 3 == 0) || (x % 5 == 0))
+			total += i;
+	return (total);
 }
