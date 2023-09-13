@@ -23,6 +23,6 @@ int compute(int max)
 
 	for (x = 0, total = 0; x < max; x++)
 		if ((x % 3 == 0) || (x % 5 == 0))
-			total += i;
+			total += x;
 	return (total);
 }
