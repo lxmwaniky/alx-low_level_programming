@@ -1,7 +1,6 @@
 #include <main.h>
 /**
- * add - sum two numbers
- *
+ * add - adds x and y
  * Return: sum of x and y
  */
 int add(int x, int y)
