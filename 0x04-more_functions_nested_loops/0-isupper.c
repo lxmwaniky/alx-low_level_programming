@@ -1,8 +1,8 @@
 /**
- * _isupper - check if c is an uppercase
+ * _isupper - check if character c is an uppercase letter
  *
  * @c: character
- * Return: 1 if uppercase, otherwise 0
+ * Return: 1 if uppercase, 0 otherwise
  */
 int _isupper(int c)
 {
