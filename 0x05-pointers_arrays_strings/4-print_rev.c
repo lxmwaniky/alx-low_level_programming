@@ -6,8 +6,11 @@
   */
 void print_rev(char *s)
 {
-	for (int i = 42; i >= 0; i--)
+	int i;
+
+	for (i = 42; i >= 0; i--)
 	{
 		printf("%c", s[i]);
 	}
+	printf("\n");
 }
