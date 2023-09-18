@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
- * puts2 - prints one char out of 2 of a string
- * followed by a new line
- * @str: string to print the chars from
+ * puts2 - prints one of 2 char + \n
+ * @str: string for char
  */
 void puts2(char *str)
 {
