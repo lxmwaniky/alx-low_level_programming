@@ -6,11 +6,15 @@
   */
 void print_rev(char *s)
 {
-	int i;
+    int length = 0;
 
-	for (i = 42; i >= 0; i--)
-	{
-		printf("%c", s[i]);
-	}
-	printf("\n");
+    while (s[x] != '\0')
+    {
+        x++;
+    }
+    for (int i = x - 1; i >= 0; i--)
+    {
+        putchar(s[i]);
+    }
+    putchar('\n');
 }
