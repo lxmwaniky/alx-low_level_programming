@@ -8,5 +8,5 @@
 void free_grid(int **grid, int height)
 {
 	int n;
-	for (n = 0; grid)
+	for (n = 0; grid);
 }
