@@ -23,7 +23,6 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 
 	return (point);
 }
-
 /**
  * _memset - fill memory
  * @s: string buffer
@@ -32,8 +31,8 @@ void *_calloc(unsigned int nmemb, unsigned int size)
  */
 void _memset(char *s, int c, unsigned int n)
 {
-	unsigned int x;
+	unsigned int y;
 
-	for (x = 0; x < n; x++)
-		s[x] = c;
+	for (y = 0; y < n; y++)
+		s[y] = c;
 }
