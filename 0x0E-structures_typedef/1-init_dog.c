@@ -55,7 +55,6 @@ char *_strdup(const char *str)
 
 	if (dup_str == NULL)
 		return (NULL);
- 
 	while (str[i] != '\0')
 	{
 		dup_str[i] = str[i];
