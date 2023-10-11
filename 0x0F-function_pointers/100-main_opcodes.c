@@ -4,7 +4,7 @@
 /**
  * main - Entry point
  * @argc: No of args
- * @argv: Array 
+ * @argv: Array
  * Return: 0 on success, 1 for incorrect number of arguments,
  * 2 for negative number of bytes.
  */
